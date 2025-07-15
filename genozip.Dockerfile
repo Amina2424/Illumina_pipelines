@@ -1,4 +1,4 @@
-FROM eod-tools.med-gen.ru/pbis:bionic
+FROM /.../
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
